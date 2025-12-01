@@ -17,12 +17,12 @@ public class sum_of_two_array {
         int n2 = scn.nextInt();
 
         int[] a2  = new int[n2];
-        for(int i = 0; i < a1.length; i++){
+        for(int i = 0; i < a2.length; i++){
             a2[i] = scn.nextInt();
         }
 
-        int[] sum = new int[n1 > n2? n1:n2];
         int c = 0;
+        int[] sum = new int[n1 > n2 ? n1 : n2];
         
         int i = a1.length - 1;
         int j = a2.length - 1;
